@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Dropdown with vanilla javascript</title>
+</head>
+<body>
+    <header id="menuservice">
+
+        <nav class="nav-bar">
+            <div class="image">
+               <a href="#"> <img src="image/annotation-2675672_640.png" alt=""></a>
+            </div>
+            <ul class="menu-ctn">
+                <li><a href="#">Acceuill</a></li>
+                <li id="menu">Notre aventure
+                    <ul id="dropdown">
+                        <li><a href="#article">Les articles</a> </li>
+                        <li><a href="#about">Les guides</a></li>
+                    </ul>
+                </li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                 <!-- <li><a class="a" href="#">To take an reservation</a></li> -->
+                 <!-- <a class="a" href="#">Prendre un rendez-vous</a> -->
+            </ul>
+            <div class="humburger">
+                <div class="line" ></div>
+                <div class="line" ></div>
+                <div class="line" ></div>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="main-image">
+        <div class="wapper">
+            <h1>Organiser votre <br> <strong>voyage</strong> <br> <small>Pour voir la beaute du monde à l'exterieure</small> </h1>
+        </div>
+
+        
+    </section>
+    <!-- section d'article  -->
+    <!-- section de blog  -->
+    <section id="blog">
+        <div class="blog">
+            <div class="titr-para">
+                    <h1 class="titre"> <span>Mon</span> blog</h1>
+                    <p class="para">On sait depuis longtemps que travailler avec du texte lisible et 
+                        contenant du sens est source de distractions, et empêche de se concentrer sur 
+                        la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 
+                        'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou 
+                        moins normale, et en tout cas comparable avec celle du français standard. De nombreuses
+                         suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur 
+                         faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux 
+                         sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues
+                          avec le temps, parfois par accident, souvent intentionnellement (histoire d'y rajouter de
+                           petits clins d'oeil, voire des phrases embarassantes).
+                       
+                        </p>
+            </div>
+            <div class="titre-image">
+                    <img src="image/snails-382992_640.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- section de blog  -->
+    
+        <article id="article" class="article">
+            <div class="titre-article">
+                <h1><span>Nos</span> activites</h1>
+                <p class="para-article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, distinctio.</p>
+            </div>
+            <div class="contenu-article">
+                <div class="bloc-article">
+                    <div class="imbloc-article">
+                        <img src="image/field-176602_640.jpg" alt="">
+                    </div>
+                    <div class="titre-bloc-art">
+                        <h3>C'était à ...........</h3>
+                    </div>
+                </div>
+                <div class="bloc-article">
+                    <div class="imbloc-article">
+                        <img src="image/field-176602_640.jpg" alt="">
+                    </div>
+                    <div class="titre-bloc-art">
+                        <h3>C'était à ...........</h3>
+                    </div>
+                </div>
+                <div class="bloc-article">
+                    <div class="imbloc-article">
+                        <img src="image/field-176602_640.jpg" alt="">
+                    </div>
+                    <div class="titre-bloc-art">
+                        <h3>C'était à ...........</h3>
+                    </div>
+                </div>
+                <div class="bloc-article">
+                    <div class="imbloc-article">
+                        <img src="image/field-176602_640.jpg" alt="">
+                    </div>
+                    <div class="titre-bloc-art">
+                        <h3>C'était à ...........</h3>
+                    </div>
+                </div>
+                <div class="bloc-article">
+                    <div class="imbloc-article">
+                        <img src="image/field-176602_640.jpg" alt="">
+                    </div>
+                    <div class="titre-bloc-art">
+                        <h3>C'était à ...........</h3>
+                    </div>
+                </div>
+                <div class="bloc-article">
+                    <div class="imbloc-article">
+                        <img src="image/field-176602_640.jpg" alt="">
+                    </div>
+                    <div class="titre-bloc-art">
+                        <h3>C'était à ...........</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="espaceur">
+                <p class="espace" ></p>
+            </div>
+
+        </article>
+
+    <!-- section d'article  -->
+
+
+<section id="about">
+    <div class="titre">
+        <h1><span>Notres </span> guides</h1>
+        <p class="para-article"> Nous sommes des guides touristiques composer de:</p>
+
+    </div>
+    <div class="about">
+        <div class="about-j">
+            <img src="image/josia.png" alt="">
+            <div class="context">
+                <h2 style="text-transform: uppercase;">Jausia rakoto</h2>
+                <p>Lorem ipsum dolor sit.</p>
+            </div>
+        </div>
+        <div class="about-j">
+            <img src="image/joselin.png" alt="">
+            <div class="context">
+
+                <h2 style="text-transform: uppercase;">Joselin rakoto</h2>
+                <p>Lorem ipsum dolor sit.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact -->
+<section id="contact">
+    <div class="contact-groupe">
+        <div class="form">
+            <h1>Vous avez une question ?</h1>
+            <p><small>merci d'utuliser le formulaire ci-dessous pour me contacter</small></p>
+            <form action="">
+                <input class="d n" type="email"  placeholder="Entrer votre email">
+                <input class="b n" type="text"  placeholder="Entrer votre sujet">
+                <textarea  class="c" cols="40" rows="5" placeholder="Message"></textarea>
+               <input class="z" type="button" value=" Pour envoyer">
+            </form>
+        </div>
+        <div class="rendez-vous">
+            <h1> Prendre un rendez-vous</h1>
+            <p><small>veuillez clickez ce boutton </small></p>
+            <img src="image/valah.png" style="height: 150px;" alt="">
+            <button  class="button" type="submit"><a href="#menuservice"> Prendre un rendez-vous</a></button>
+        </div>
+    </div>
+
+</section>
+
+    <!-- Contact -->
+
+    <!-- footer partie -->
+        <footer>
+            <div class="footer">
+                <div class="partie-1">
+                    <h1>Footer</h1>
+                    <p>Lorem, ipsum dolor 
+                       <br> Lorem, ipsum dolor 
+                       <br> Lorem, ipsum dolor 
+                       <br> Lorem, ipsum dolor 
+                    </p>
+                </div>
+                <div class="partie-2">
+                    <h1>Nos Contact</h1>
+                    <ul class="nos-conatact">
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                    </ul>
+                </div>
+                <div class="partie-3">
+                    <h1>List des regions</h1>
+                    <ul class="regions">
+                        <li class="list-regions"><a href="#">SAVA</a></li>
+                        <li class="list-regions"><a href="#">DIANA</a></li>
+                        <li class="list-regions"><a href="#">SOFIA</a></li>
+                        <li class="list-regions"><a href="#">ITASY</a></li>
+                        <li class="list-regions"><a href="#">ANALAMANGA</a></li>
+                        <li class="list-regions"><a href="#">ALAOTRA</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+    <!-- footer partie -->
+    <script src="js/script.js" type="text/javascript" ></script>
+</body>
+</html>
